@@ -60,10 +60,10 @@ CursorAISim is a web application built with Streamlit that leverages the power o
 
 ## How to Run
 
-[Online Implementation](https://cursoraisimulator.streamlit.app/)
----
+**[Online Implementation](https://cursoraisimulator.streamlit.app/)**
+
 **OR**
----
+
 1.  Ensure you have completed the setup steps above.
 2.  Navigate to the directory containing the application script .
 3.  Run the Streamlit application from your terminal:
