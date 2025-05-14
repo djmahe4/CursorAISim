@@ -73,6 +73,8 @@ CursorAISim is a web application built with Streamlit that leverages the power o
 4.  The application will open in your default web browser.
 5.  Enter your Google Gemini API Key in the sidebar to activate the AI features.
 
+**Note: There is a provision to switch to ```Gemini 2.5 Flash Preview 04-17``` Just modify line 34 in code.py ```model = genai.GenerativeModel('gemini-2.0-flash')``` to ```model = genai.GenerativeModel('gemini-2.5-flash-preview-04-17')```**
+
 ## Application Structure & Functionality
 
 The application is structured to provide a user-friendly interface for interacting with the Gemini API for coding tasks.
