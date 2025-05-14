@@ -59,14 +59,15 @@ CursorAISim is a web application built with Streamlit that leverages the power o
     *   The application will prompt you to enter this API key in the sidebar when you first run it.
 
 ## How to Run
-
+---
+[Online Implementation](https://cursoraisimulator.streamlit.app/)
+---
 1.  Ensure you have completed the setup steps above.
-2.  Navigate to the directory containing the application script (e.g., `gemini_code_app.py`).
+2.  Navigate to the directory containing the application script .
 3.  Run the Streamlit application from your terminal:
     ```bash
     streamlit run your_script_name.py 
     ```
-    (Replace `your_script_name.py` with the actual name of the Python file).
 4.  The application will open in your default web browser.
 5.  Enter your Google Gemini API Key in the sidebar to activate the AI features.
 
@@ -74,7 +75,7 @@ CursorAISim is a web application built with Streamlit that leverages the power o
 
 The application is structured to provide a user-friendly interface for interacting with the Gemini API for coding tasks.
 
-*   **`your_script_name.py` (Main Application File):**
+*   **`code.py` (Main Application File):**
     *   **Pydantic Models (`CodeSnippet`, `ChatMessage`, `AppState`):** Define the data structures for managing code, chat interactions, and the overall application state.
     *   **API Key and Client Initialization (`initialize_gemini_client`, `get_gemini_client`):** Handles secure input of the API key and initialization of the Gemini model client. The client is cached using `st.cache_resource`.
     *   **Gemini Interaction (`send_gemini_message`):** A core function to send prompts to the Gemini API and retrieve responses for generation, explanation, or chat.
@@ -129,7 +130,3 @@ The application is structured to provide a user-friendly interface for interacti
 ## Contributing
 
 This is a conceptual project. If it were an open-source project, contributions would be welcome! Please fork the repository and submit a pull request with your enhancements.
-
-## License
-
-Consider adding a license if you make this repository public (e.g., MIT License).
