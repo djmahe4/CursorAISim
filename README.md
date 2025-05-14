@@ -19,7 +19,7 @@ CursorAISim is a web application built with Streamlit that leverages the power o
 ## Technologies Used
 
 *   **Frontend:** [Streamlit](https://streamlit.io/)
-*   **AI Model:** [Google Gemini API](https://ai.google.dev/docs/gemini_api_overview) (specifically `gemini-1.5-flash` in the example, adaptable to other Gemini models)
+*   **AI Model:** [Google Gemini API](https://ai.google.dev/docs/gemini_api_overview) (specifically `gemini-2.0-flash` in the example, adaptable to other Gemini models)
 *   **Data Validation & Structuring:** [Pydantic](https://docs.pydantic.dev/)
 *   **Language:** Python 3.x
 
