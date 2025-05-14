@@ -32,7 +32,7 @@ CursorAISim is a web application built with Streamlit that leverages the power o
 2.  **Clone the Repository (Optional):**
     If you have this project in a Git repository:
     ```bash
-    git clone https://github.com/your-username/CursorAISim.git
+    git clone https://github.com/djmahe4/CursorAISim.git
     cd CursorAISim
     ```
 
@@ -59,14 +59,14 @@ CursorAISim is a web application built with Streamlit that leverages the power o
     *   The application will prompt you to enter this API key in the sidebar when you first run it.
 
 ## How to Run
----
+
 [Online Implementation](https://cursoraisimulator.streamlit.app/)
 ---
 1.  Ensure you have completed the setup steps above.
 2.  Navigate to the directory containing the application script .
 3.  Run the Streamlit application from your terminal:
     ```bash
-    streamlit run your_script_name.py 
+    streamlit code.py 
     ```
 4.  The application will open in your default web browser.
 5.  Enter your Google Gemini API Key in the sidebar to activate the AI features.
