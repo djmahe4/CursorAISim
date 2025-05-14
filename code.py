@@ -31,7 +31,7 @@ def initialize_gemini_client(api_key: str):
     """Initializes the Gemini generative model with the provided API key."""
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-pro') # Or other appropriate model
+        model = genai.GenerativeModel('gemini-1.5-flash') # Or other appropriate model
         return model
     except Exception as e:
         st.error(f"Failed to initialize Gemini client: {e}")
