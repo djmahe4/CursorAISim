@@ -118,12 +118,12 @@ The application is structured to provide a user-friendly interface for interacti
 
 ## Future Enhancements (Potential Ideas)
 
-*   **Streaming Responses:** Implement streaming for chat for a more interactive feel.
-*   **Direct Code Editing:** Allow users to edit the displayed code snippets directly in the UI.
-*   **Improved Context Management:** More sophisticated ways for the user to specify which code snippet the chat refers to.
-*   **History Persistence:** Option to save/load chat history or generated code snippets across sessions (e.g., using local files or a simple database).
-*   **Enhanced Error Handling:** More granular error messages and recovery options.
-*   **Support for Code Execution (with extreme caution and sandboxing):** If ever considered, this would require significant security measures.
+- [ ]   **Streaming Responses:** Implement streaming for chat for a more interactive feel.
+- [ ]   **Direct Code Editing:** Allow users to edit the displayed code snippets directly in the UI.
+- [ ]   **Improved Context Management:** More sophisticated ways for the user to specify which code snippet the chat refers to.
+- [ ]   **History Persistence:** Option to save/load chat history or generated code snippets across sessions (e.g., using local files or a simple database).
+- [ ]   **Enhanced Error Handling:** More granular error messages and recovery options.
+- [ ]   **Support for Code Execution (with extreme caution and sandboxing):** If ever considered, this would require significant security measures.
 
 ## Contributing
 
