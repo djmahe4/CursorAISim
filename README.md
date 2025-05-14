@@ -43,13 +43,7 @@ CursorAISim is a web application built with Streamlit that leverages the power o
     ```
 
 4.  **Install Dependencies:**
-    Create a `requirements.txt` file with the following content:
-    ```txt
-    streamlit
-    google-generativeai
-    pydantic
-    ```
-    Then install the dependencies:
+    Install the dependencies:
     ```bash
     pip install -r requirements.txt
     ```
