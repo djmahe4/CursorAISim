@@ -127,4 +127,4 @@ The application is structured to provide a user-friendly interface for interacti
 
 ## Contributing
 
-This is a conceptual project. If it were an open-source project, contributions would be welcome! Please fork the repository and submit a pull request with your enhancements.
+Contributions are always welcome! Please fork the repository and submit a pull request with your enhancements.
